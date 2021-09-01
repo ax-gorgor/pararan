@@ -19,6 +19,8 @@ h1{
         font-size: 16em;
 }
 
+h1 a {text-decoration: none;}
+
 h1 span {
 
     display: table-cell;
@@ -69,7 +71,7 @@ h1 span:nth-child(8){
     0%,100%
     {
         color: #fff;
-        filter: blur(2px);
+        filter: blur(1px);
        
 
     }
@@ -89,7 +91,7 @@ h1 span:nth-child(8){
 
 @media screen and (max-width:450px) {
     
-    h1 {width:100%; font-size: 65px; 
+    h1 {width:100%; font-size: 60px; 
    display: flex; text-align: center; justify-content: center;
    margin:auto}
              
@@ -98,7 +100,7 @@ h1 span:nth-child(8){
 
 @media screen and (max-width:360px) {
     
-     h1 {width:100%; font-size: 60px;  
+     h1 {width:100%; font-size: 48px;  
     display: flex; text-align: center; justify-content: center;
     margin:auto;
       }
